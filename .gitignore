@@ -40,3 +40,36 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# ==========================
+# Added for .NET Core API
+# ==========================
+
+# Build output
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.mdb
+*.log
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET/Entity Framework
+App_Data/
+*.mdf
+*.ldb
+*.sqlite
+*.db
+Migrations/
+
+# Logs & Environment Files
+*.log
+.env
+.env.local
+secrets.json
